@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[healthyagents.com]]></title>
+  <link href="http://healthyagents.github.io//atom.xml" rel="self"/>
+  <link href="http://healthyagents.github.io//"/>
+  <updated>2014-06-07T14:22:20-04:00</updated>
+  <id>http://healthyagents.github.io//</id>
+  <author>
+    <name><![CDATA[Cristina Metgher]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
