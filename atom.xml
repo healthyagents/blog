@@ -4,7 +4,7 @@
   <title><![CDATA[healthyagents.com]]></title>
   <link href="http://healthyagents.github.io//atom.xml" rel="self"/>
   <link href="http://healthyagents.github.io//"/>
-  <updated>2014-06-07T14:22:20-04:00</updated>
+  <updated>2014-06-07T14:51:09-04:00</updated>
   <id>http://healthyagents.github.io//</id>
   <author>
     <name><![CDATA[Cristina Metgher]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Health-related Agent Based Modeling]]></title>
+    <link href="http://healthyagents.github.io//blog/2014/06/07/health-related-agent-based-modeling/"/>
+    <updated>2014-06-07T14:48:10-04:00</updated>
+    <id>http://healthyagents.github.io//blog/2014/06/07/health-related-agent-based-modeling</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
