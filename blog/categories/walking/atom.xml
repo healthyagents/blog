@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Walking | healthyagents.com]]></title>
   <link href="http://healthyagents.github.io//blog/categories/walking/atom.xml" rel="self"/>
   <link href="http://healthyagents.github.io//"/>
-  <updated>2014-06-20T03:26:31-04:00</updated>
+  <updated>2014-06-20T03:30:02-04:00</updated>
   <id>http://healthyagents.github.io//</id>
   <author>
     <name><![CDATA[Cristina Metgher]]></name>
@@ -18,9 +18,7 @@
     <link href="http://healthyagents.github.io//blog/2014/06/20/a-spatial-agent-based-model-for-the-simulation-of-adults-daily-walking-withing-a-city/"/>
     <updated>2014-06-20T01:46:27-04:00</updated>
     <id>http://healthyagents.github.io//blog/2014/06/20/a-spatial-agent-based-model-for-the-simulation-of-adults-daily-walking-withing-a-city</id>
-    <content type="html"><![CDATA[<h1>A Spatial Agent-Based Model for the Simulation of Adults’ Daily Walking Within a City</h1>
-
-<p>This agent based model simulates walking behaviors of people within a city. Agents are assigned properties such as a home location, age, socioeconomic status (SES), walking ability and attitude towards walking that evolve over time. The aim of the model is to better understand the determinants of walking so that more appropriate interventions to increase walking can be identified.</p>
+    <content type="html"><![CDATA[<p>This agent based model simulates walking behaviors of people within a city. Agents are assigned properties such as a home location, age, socioeconomic status (SES), walking ability and attitude towards walking that evolve over time. The aim of the model is to better understand the determinants of walking so that more appropriate interventions to increase walking can be identified.</p>
 
 <h4>General model characteristics</h4>
 
