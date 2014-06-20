@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Walking | healthyagents.com]]></title>
   <link href="http://healthyagents.github.io//blog/categories/walking/atom.xml" rel="self"/>
   <link href="http://healthyagents.github.io//"/>
-  <updated>2014-06-20T03:30:02-04:00</updated>
+  <updated>2014-06-20T03:32:24-04:00</updated>
   <id>http://healthyagents.github.io//</id>
   <author>
     <name><![CDATA[Cristina Metgher]]></name>
@@ -46,7 +46,7 @@
 
 <p>The table below shows the average walking trips per day, and mean and median distances walked for model predictions and NHTS data used for model calibration:</p>
 
-<p style="text-align:center;"><img src="/Users/cristinametgher/Documents/octopress/source/images/results-walking.png" alt="calib-table" /></p>
+<p style="text-align:center;"><img src="https://github.com/healthyagents/blog/blob/gh-pages/images/results-walking.png" alt="calib-table" /></p>
 
 <p>The average trips per day for each purpose was computed as the product of the frequency and 0.35 because according to NHTS, Americans make slightly more than four travel trips per day of which 8.6% are walking trips.</p>
 
@@ -54,7 +54,7 @@
 
 <p style="text-align:center;"><img src="/Users/cristinametgher/Documents/octopress/source/images/xx.jpg" alt="figure1" /></p>
 
-<h4>What did we learn from this model?</h4>
+<h4>What can we learn from this model?</h4>
 
 <p>The authors explored a few scenarios showing us that walking amongst lowest SES is performed more to work and less for recreation, and they also had the lowest walking attitudes due to the lowest safety. They found that increasing safety is more effective at increasing walking amongst lower SES people as opposed to increasing walking attitude.</p>
 
