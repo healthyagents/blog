@@ -4,25 +4,37 @@
         <loc>
             http://healthyagents.github.io//blog/2014/06/07/health-related-agent-based-modeling/
         </loc>
-        <lastmod>2014-06-20T21:48:42-04:00</lastmod>
+        <lastmod>2014-06-20T22:01:23-04:00</lastmod>
     </url>
     <url>
         <loc>
             http://healthyagents.github.io//blog/2014/06/20/a-spatial-agent-based-model-for-the-simulation-of-adults-daily-walking-withing-a-city/
         </loc>
-        <lastmod>2014-06-20T21:48:42-04:00</lastmod>
+        <lastmod>2014-06-20T22:01:23-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://healthyagents.github.io//404.html</loc>
+        <lastmod>2014-06-20T22:01:23-04:00</lastmod>
     </url>
     <url>
         <loc>http://healthyagents.github.io//about/</loc>
-        <lastmod>2014-06-20T21:48:42-04:00</lastmod>
+        <lastmod>2014-06-20T22:01:23-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://healthyagents.github.io//about/</loc>
+        <lastmod>2014-06-20T22:01:23-04:00</lastmod>
     </url>
     <url>
         <loc>http://healthyagents.github.io//blog/archives/</loc>
-        <lastmod>2014-06-20T21:48:42-04:00</lastmod>
+        <lastmod>2014-06-20T22:01:23-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://healthyagents.github.io//index/</loc>
+        <lastmod>2014-06-20T22:01:23-04:00</lastmod>
     </url>
     <url>
         <loc>http://healthyagents.github.io//</loc>
-        <lastmod>2014-06-20T21:48:42-04:00</lastmod>
+        <lastmod>2014-06-20T22:01:23-04:00</lastmod>
     </url>
     <url>
         <loc>http://healthyagents.github.io//robots.txt</loc>
@@ -30,6 +42,6 @@
     </url>
     <url>
         <loc>http://healthyagents.github.io//search.html</loc>
-        <lastmod>2014-06-20T21:48:42-04:00</lastmod>
+        <lastmod>2014-06-20T22:01:23-04:00</lastmod>
     </url>
 </urlset>

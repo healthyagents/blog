@@ -1,86 +1,61 @@
+<!DOCTYPE html>
 
-<!DOCTYPE HTML>
-<html>
 <head>
-	<meta charset="utf-8">
-	<title>A spatial agent-based model for the simulation of adults’ daily walking withing a city - healthyagents.com</title>
-    <meta name="author" content="Cristina Metgher">
-    
-	<meta name="description" content="This agent based model simulates walking behaviors of people within a city. Agents are assigned properties such as a home location, age, &hellip;">
+	<meta charset='utf-8'>
+	<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' >
+
+	<meta content='' name='description'>
+	<meta content='Cristina Metgher' name='author'>
 	
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	  <!-- http://t.co/dKP3o1e -->
+	<meta name='HandheldFriendly' content='True'>
+	<meta name='MobileOptimized' content='320'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+ 
+	<title>A spatial agent-based model for the simulation of adults’ daily walking withing a city &mdash; healthyagents.com</title>
 
-	<link href="/atom.xml" rel="alternate" title="healthyagents.com" type="application/atom+xml">
-	<link rel="canonical" href="">
-	<link href="/favicon.ico" rel="shortcut icon">
-    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+ 	
+	<link rel='canonical' href='http://healthyagents.github.io//blog/2014/06/20/a-spatial-agent-based-model-for-the-simulation-of-adults-daily-walking-withing-a-city'>
+	<link href='/favicon.png' rel='icon'>
+	<link href='/atom.xml' rel='alternate' title='healthyagents.com' type='application/atom+xml'>
 
-    <link href='http://fonts.googleapis.com/css?family=Slackey' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet' type='text/css'>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link href='/stylesheets/prettify.css' rel='stylesheet'>
+	<link href='/stylesheets/main.css' rel='stylesheet'>
 
-    <script type="text/javascript" src="/javascripts/jquery-tapir.js"></script>
-
-    <!-- remove or comment it to disable ajaxification -->   
-    <script src="/javascripts/ajaxify.js"></script>
-   
-    
-    
-
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js' type='text/javascript'></script>
+	<script src='/javascripts/jquery.appear.min.js' type='text/javascript'></script>
+	<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+	<script src='/javascripts/main.js' type='text/javascript'></script>
+	
+		
 </head>
-
-
 <body>
-    <div id="wrapper">
-    <header id="header" class="inner"><!-- for more effects see _animate.scss -->
-<h1 class="animated bounceInDown">
-    <div id="headerbg">
-        Cristina Metgher
-    </div>
-</h1>
-<br>
-
-<ul id="social-links" style="text-align:center">
-  
-  
-  
-  
-  
-  
-  
-  
-</ul>
-
-
-<!-- use full url including 'index.html' for navigation bar if you are using ajax -->
-<ul id="nav">
-	<li id="ajax"><a href="/index.html">Home</a></li>
-	<li id="ajax"><a href="/blog/archives/index.html">Archives</a></li>
-    <li><a href="/atom.xml">RSS</a></li>
-    
-    <li>
-    <div id="dark">
-        <form method="get" action="/search.html" id="search">
-            <input name="query" type="text" placeholder="Search..." x-webkit-speech />
-        </form>
-    </div>
-    </li>
-        
-</ul>
-
-
-
-
-</header>
-
-<div id="toload">
-<!-- begin toload --> 
-    <div id="content" class="inner">
-        <article class="post">
-	<h2 class="title">A Spatial Agent-based Model for the Simulation of Adults’ Daily Walking Withing a City</h2>
-	<div class="entry-content"><p>This agent based model simulates walking behaviors of people within a city. Agents are assigned properties such as a home location, age, socioeconomic status (SES), walking ability and attitude towards walking that evolve over time. The aim of the model is to better understand the determinants of walking so that more appropriate interventions to increase walking can be identified.</p>
+	<header>
+		<h1><a href='/'>healthyagents.com</a></h1>
+		<h3>A blog on health-related agent based modeling.</h3>
+	</header>
+	<nav>
+		<ul>
+			
+			<li><a href='/'>blog</a></li>
+			
+			
+			<li><a href='/index'>index</a></li>
+			     
+			<li><a href='/about'>about</a></li>
+		</ul>
+	</nav>
+	<section class='main'>
+		<hr>
+		
+<article class='post'>
+	<hgroup>
+		<h4><a href='/blog/2014/06/20/a-spatial-agent-based-model-for-the-simulation-of-adults-daily-walking-withing-a-city/'>A spatial agent-based model for the simulation of adults’ daily walking withing a city</a></h4>
+		<h6>20 june 2014</h6>
+		<h6><a class='category' href='/blog/categories/abm/'>abm</a>, <a class='category' href='/blog/categories/spatial/'>spatial</a>, <a class='category' href='/blog/categories/walking/'>walking</a></h6>
+	</hgroup>
+	<div>
+		<p>This agent based model simulates walking behaviors of people within a city. Agents are assigned properties such as a home location, age, socioeconomic status (SES), walking ability and attitude towards walking that evolve over time. The aim of the model is to better understand the determinants of walking so that more appropriate interventions to increase walking can be identified.</p>
 
 <h4>General model characteristics</h4>
 
@@ -125,60 +100,13 @@
 <h4>References</h4>
 
 <p>The model was published by Yang Y, Roux AV, Auchincloss AH, Rodriguez DA, and Brown DG in <a href="http://www.ajpmonline.org/">American Journal of Preventive Medicine</a>. The original ›paper describing the model in detail can be found <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3306662/pdf/nihms-266332.pdf">here</a>.</p>
-</div>
 
-<div class="meta">
-	
-</div>
-</article>
-
-	<div class="share">
-	<div class="addthis_toolbox addthis_default_style ">
-	
-	
-	<a class="addthis_button_tweet"></a>
-	
-	
-	<a class="addthis_counter addthis_pill_style"></a>
+		
 	</div>
-  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
-</div>
-
-
-
-    </div>
-    <footer id="footer">
-    <div style="display:inline">
-    Copyright &copy; 2014
-
-    Cristina Metgher
-. Powered by <a href="http://octopress.org">Octopress</a> | 
-    Theme <a href="http://github.com/panks/fabric">fabric</a> by <a href="http://panks.me">Pankaj Kumar</a>
-</div>
-
-
-    </footer>
-    <script src="/javascripts/fabric.js"></script>
-<script src="/javascripts/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-(function($){
-	$('.fancybox').fancybox();
-})(jQuery);
-</script> <!-- Delete or comment this line to disable Fancybox -->
-
-
-
-
-
-
-<!-- end toload --> 
-</div>
-</div>
-<script src="/javascripts/jquery.ui.totop.js" type="text/javascript"></script>
-<script type="text/javascript">
-/*<![CDATA[*/
-;(function($){$().UItoTop({easingType:'easeOutCirc'});})(jQuery); 
-/*]]>*/
-</script><!-- remove it to remove the scroll to top button -->
+</article>
+<hr>
+	</section>
+	<footer>
+		<p>| <a href='http://octopress.org/'>octopress</a> | <a href='http://github.com/deakolt/octoflow'>octoflow theme</a> | <a href='http://pages.github.com/'>github pages</a> | <a href='/atom.xml'>rss</a> |</p>
+	</footer>
 </body>
-</html>
