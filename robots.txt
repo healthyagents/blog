@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://healthyagents.github.io//blog/sitemap.xml 
+Sitemap: http://healthyagents.github.io//github/sitemap.xml 
