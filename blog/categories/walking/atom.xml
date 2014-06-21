@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: walking | healthyagents.com]]></title>
+  <title><![CDATA[Category: Walking | healthyagents.com]]></title>
   <link href="http://healthyagents.github.io//blog/categories/walking/atom.xml" rel="self"/>
   <link href="http://healthyagents.github.io//"/>
-  <updated>2014-06-20T22:46:29-04:00</updated>
+  <updated>2014-06-20T22:53:39-04:00</updated>
   <id>http://healthyagents.github.io//</id>
   <author>
     <name><![CDATA[Cristina Metgher]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[A spatial agent-based model for the simulation of adults’ daily walking withing a city]]></title>
+    <title type="html"><![CDATA[A Spatial Agent-based Model for the Simulation of Adults’ Daily Walking Withing a City]]></title>
     <link href="http://healthyagents.github.io//blog/2014/06/20/a-spatial-agent-based-model-for-the-simulation-of-adults-daily-walking-withing-a-city/"/>
     <updated>2014-06-20T01:46:27-04:00</updated>
     <id>http://healthyagents.github.io//blog/2014/06/20/a-spatial-agent-based-model-for-the-simulation-of-adults-daily-walking-withing-a-city</id>
