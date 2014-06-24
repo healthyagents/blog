@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://healthyagents.github.io/blog/atom.xml" rel="self"/>
-  <link href="http://healthyagents.github.io/blog/"/>
-  <updated>2014-06-21T02:49:25-04:00</updated>
-  <id>http://healthyagents.github.io/blog/</id>
+  <link href="http://healthyagents.github.io//atom.xml" rel="self"/>
+  <link href="http://healthyagents.github.io//"/>
+  <updated>2014-06-24T02:50:20-04:00</updated>
+  <id>http://healthyagents.github.io//</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
