@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Social Networks | HealthyAgents]]></title>
   <link href="http://healthyagents.github.io//blog/categories/social-networks/atom.xml" rel="self"/>
   <link href="http://healthyagents.github.io//"/>
-  <updated>2014-07-02T22:47:05-04:00</updated>
+  <updated>2014-07-02T23:18:53-04:00</updated>
   <id>http://healthyagents.github.io//</id>
   <author>
     <name><![CDATA[Cristina Metgher]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Simulating the Effects of Improved Education and Social Network Influence on Diet Behavior]]></title>
+    <title type="html"><![CDATA[Simulating the Effects of Education and Social Networks on Diet Behavior]]></title>
     <link href="http://healthyagents.github.io//blog/2014/07/02/simulating-the-effects-of-improved-education-and-social-network-influence-on-diet-behavior/"/>
     <updated>2014-07-02T00:13:35-04:00</updated>
     <id>http://healthyagents.github.io//blog/2014/07/02/simulating-the-effects-of-improved-education-and-social-network-influence-on-diet-behavior</id>
@@ -36,19 +36,20 @@ Health behaviors dependent on neighborhood-level school quality, quality of food
 
 <p style="text-align:center;"> <img src="/images/2overview.png" width="600" alt="model overview" /></p>
 
-<h3>Agents</h3>
+<h4>Agents</h4>
 
-<p><em>Agent characteristics</em>: age, race, school attendance, educational attainment, and earning potential, and behaviors of friends;</p>
+<ul>
+<li><em>Agent characteristics</em>: age, race, school attendance, educational attainment, and earning potential, and behaviors of friends;</li>
+<li><em>Health behaviors</em>: diet, physical activity and smoking;</li>
+<li><em>Outcome variables of interest</em>: Body Mass Index (BMI), cardiovascular health and mortality rate</li>
+</ul>
 
-<p><em>Health behaviors</em>: diet, physical activity and smoking;</p>
 
-<p><em>Outcome variables of interest</em>: Body Mass Index (BMI), cardiovascular health and mortality rate</p>
-
-<h3>Housing Units</h3>
+<h4>Housing Units</h4>
 
 <p>Each neighborhood has 25 housing units, organized in a 5 X 5 grid. Housing units can be either occupied(80% at the initial period) or unoccupied (the other 20 %).</p>
 
-<h3>Households 1280 households ﬁll 80% of the 1600 housing units. Each household consists of up to 4 agents.</h3>
+<h4>Households1280 households ﬁll 80% of the 1600 housing units. Each household consists of up to 4 agents.</h4>
 
 <h1>Model results</h1>
 
@@ -57,13 +58,24 @@ Health behaviors dependent on neighborhood-level school quality, quality of food
 2. the Black/White disparity in diet behavior was considerably reduced under some conditions, but never completely eliminated.
 3. the degree to which the disparity in diet behavior was reduced was a function of the type of social norm that was in place; the reduction was smallest when the type of social norm was healthy.</p>
 
-<p>Figure 2 illustrates the full time series of Healthy Diet for Experiment:</p>
+<p>Percent of age group in school:</p>
 
-<p>&ndash;> <img src="/images/2obesity2.png" width="600" alt="results healthy diet" /> &lt;&ndash;
-&ndash;> <img src="/images/2results1.png" width="600" alt="results healthy diet" /> &lt;&ndash;
-&ndash;> <img src="/images/2results2.png" width="600" alt="results healthy diet" /> &lt;&ndash;
-&ndash;> <img src="/images/2results3.png" width="600" alt="results healthy diet" /> &lt;&ndash;#Conclusions
-Improving school quality can reduce, but not eliminate racial disparities in obesity related behavior, and the degree to which this is true depends partly on social network effects.#References</p>
+<p style="text-align:center;"> <img src="/images/2results1.png" width="600" alt="results healthy diet" /></p>
+
+<p>Income distribution:</p>
+
+<p style="text-align:center;"> <img src="/images/2results2.png" width="600" alt="results 2" /></p>
+
+<p>Smoking rate by age compared to NHIS data:</p>
+
+<p> <img src="/images/2results3.png" width="600" alt="results 3" />&nbsp;</p>
+
+<h1>Conclusions</h1>
+
+<p>Improving school quality can reduce, but not eliminate racial disparities in obesity related behavior, and the degree to which this is true depends partly on social network effects.
+&nbsp;</p>
+
+<h1>References</h1>
 
 <p>Mark G. Orr, Sandro Galea, Matt Riddle, George Kaplan, Reducing Racial Disparities in Obesity: Simulating the Effects of Improved Education and Social Network Influence on Diet Behavior, Annals of Epidemiology, Available online 29 May 2014, ISSN 1047-2797 available online <a href="http://dx.doi.org/10.1016/j.annepidem.2014.05.012">here</a></p>
 ]]></content>
