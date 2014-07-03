@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Abm | HealthyAgents]]></title>
-  <link href="http://healthyagents.github.io//blog/categories/abm/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Diet | HealthyAgents]]></title>
+  <link href="http://healthyagents.github.io//blog/categories/diet/atom.xml" rel="self"/>
   <link href="http://healthyagents.github.io//"/>
   <updated>2014-07-02T22:47:05-04:00</updated>
   <id>http://healthyagents.github.io//</id>
@@ -66,91 +66,6 @@ Health behaviors dependent on neighborhood-level school quality, quality of food
 Improving school quality can reduce, but not eliminate racial disparities in obesity related behavior, and the degree to which this is true depends partly on social network effects.#References</p>
 
 <p>Mark G. Orr, Sandro Galea, Matt Riddle, George Kaplan, Reducing Racial Disparities in Obesity: Simulating the Effects of Improved Education and Social Network Influence on Diet Behavior, Annals of Epidemiology, Available online 29 May 2014, ISSN 1047-2797 available online <a href="http://dx.doi.org/10.1016/j.annepidem.2014.05.012">here</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[EpiSimS: Epidemic Agent Based Model]]></title>
-    <link href="http://healthyagents.github.io//blog/2014/06/25/episims-epidemic-agent-based-model/"/>
-    <updated>2014-06-25T00:03:23-04:00</updated>
-    <id>http://healthyagents.github.io//blog/2014/06/25/episims-epidemic-agent-based-model</id>
-    <content type="html"><![CDATA[<h1>Model Overview</h1>
-
-<p>EpiSimS is a large scale spatial agent based model for simulating the dynamics of contagious disease spread, based on the activity generator developed for <a href="http://www.fhwa.dot.gov/planning/tmip/transims/">TRANSIMS</a>. The simulation is used for analyzing scenarios for responding to disease outbreaks.</p>
-
-<p>For a general feel of the model scale, here are a few highlights:</p>
-
-<ul>
-<li>Location: southern California</li>
-<li>18.8 million individuals</li>
-<li>2.3 million locations</li>
-<li>6.3 million  households</li>
-<li>938,000 southern California businesses, schools, restaurants, shops, hospitals, etc.</li>
-</ul>
-
-
-<p>EpiSimS simulates the movements, activities, and social interactions of individuals in realistic synthetic populations. Disease progression is characterized by 14 states, which aare shown in the figure below:</p>
-
-<p style="text-align:center;"> <img src="/images/fig2_diseaseStages.jpg" width="600" alt="disease stages" /></p>
-
-<p>Households are located to a specific city half-block, with multiple city blocks combining to form a census block group.</p>
-
-<p style="text-align:center;"> <img src="/images/fig1a_blocks.jpg" width="600" alt="blocks" /></p>
-
-<p>Agent activities are assigned a specified start and stop time and a specified location. The activities undertaken by members of a synthetic household are drawn from the 60,000 activity surveys from actual households in the <a href="http://www.rita.dot.gov/bts/publications/highlights_of_the_2001_national_household_travel_survey/html/executive_summary.html">National Household Transportation Survey</a>.</p>
-
-<p>The authors also explored scenarios such as the impact of disease on workforce absenteeism and reactive behavioral modifications.</p>
-
-<p>The pseudocode of the model is as follows:</p>
-
-<h1>Model results</h1>
-
-<p>Even though, as with any model, they authors had to make simplifications, the results of the model are consistent with existing evidence provided by published survey studies.</p>
-
-<p>The authors found that the average household size of a community is a powerful predictor (Pearson&rsquo;s correlation coefficient of 0.9) of the local severity of an influenza pandemic. Population density, however was found to be a surprisingly poor predictor of simulated local pandemic severity.</p>
-
-<p>Also, EpiSimS-computed impact of school closures for a 1918-like pandemic influenza. As the schools re-open, new infection waves appear for B and C:</p>
-
-<p style="text-align:center;"> <img src="/images/episims_1_lg.jpg" width="600" alt="disease stages" /></p>
-
-<p>The development of EpiSimS began at Los Alamos National Laboratory in 2000 and is implemented in C++. The results have been published in several peer-reviewd journals.</p>
-
-<h1>References</h1>
-
-<p>The model is thoroughly described in:</p>
-
-<p>Stroud, Phillip, Del Valle, Sara, Sydoriak, Stephen, Riese, Jane and Mniszewski, Susan (2007). &lsquo;Spatial Dynamics of Pandemic Influenza in a Massive Artificial Society&rsquo;. Journal of Artificial Societies and Social Simulation 10(4)9 available <a href="http://jasss.soc.surrey.ac.uk/10/4/9.html">here</a>.</p>
-
-<p>EpiSimS is also available for experimentation via a web interface <a href="http://www.casa.ucl.ac.uk/joanamargarida/websiteProject/">here</a></p>
-
-<hr />
-
-<h3>pseudocode of the model</h3>
-
-<p>```
-ESimulator::main</p>
-
-<pre><code>Initialize local parameters from the config file 
-Register to receive messages from other processors
-Create and open a local event logger 
-Read in the disease manifestation 
-IF master 
-    Read in the partition file (sublocations per location)
-    Read in disease states (initial health of each person)
-    Send each location to the appropriate processor.
-    Read in schedule file (activities for each person)
-    Send each individual to the appropriate processor.
-    Until endOfSimulation 
-        receive and log results 
-ELSE
-    Receive locations
-    Receive individuals
-    Place scheduled events on event queue
-    Until endOfSimulation
-        Handle next event
-</code></pre>
-
-<p>```</p>
 ]]></content>
   </entry>
   

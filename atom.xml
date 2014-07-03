@@ -4,7 +4,7 @@
   <title><![CDATA[HealthyAgents]]></title>
   <link href="http://healthyagents.github.io//atom.xml" rel="self"/>
   <link href="http://healthyagents.github.io//"/>
-  <updated>2014-06-26T00:45:33-04:00</updated>
+  <updated>2014-07-02T22:47:05-04:00</updated>
   <id>http://healthyagents.github.io//</id>
   <author>
     <name><![CDATA[Cristina Metgher]]></name>
@@ -12,6 +12,62 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Simulating the Effects of Improved Education and Social Network Influence on Diet Behavior]]></title>
+    <link href="http://healthyagents.github.io//blog/2014/07/02/simulating-the-effects-of-improved-education-and-social-network-influence-on-diet-behavior/"/>
+    <updated>2014-07-02T00:13:35-04:00</updated>
+    <id>http://healthyagents.github.io//blog/2014/07/02/simulating-the-effects-of-improved-education-and-social-network-influence-on-diet-behavior</id>
+    <content type="html"><![CDATA[<h1>About the model</h1>
+
+<p>This post highlights one of the obesity ABMs. This model is interesting as it addresses reducing racial disparities in obesity. The motivation behind building such a model comes from the fact that obesity is a complex health problem, as can be observed from <a href="http://www.shiftn.com/obesity/Full-Map.html">Foresight group’s systems map of obesity drivers</a>. Also, large disparities exist among people of different groups. There is a disparate patterning among socioeconomic status, neighborhood characteristics and health behaviors among other. It covers the main proximal determinants of obesity, such as: behavioral, social, and environmental determinants of dietary intake and physical activity.</p>
+
+<p>The authors&#8217; approach in this paper was to model the potential effects of a social policy on the reduction in Black/White disparities in diet. The main hypotheses are the following:</p>
+
+<ul>
+<li>Policy effects and social network effects will have independent effects on the diet of both Blacks and Whites, but will also interact;</li>
+<li>Targeting neighborhood school quality will reduce the Black/White disparities in diet because neighborhoods in our model with the poorest quality of schools also tended to have the greatest concentration of Black residents;</li>
+<li>The effects of targeting neighborhood school quality will be self-sustaining, even after the policy is no longer in place, due to the propagation of diet behaviors via social network effects.</li>
+</ul>
+
+
+<p>The model starts oﬀ with a target distribution of ages, incomes and race for agents. Agents are born, go to school, get jobs and retire, can move from one neighborhood to another, have one child at age 25, and die. They exhibit health behaviors(smoking, diet, exercise) that produce health outcomes (BMI, cardiovascular disease and death).
+Health behaviors dependent on neighborhood-level school quality, quality of food stores, and walkability and social network eﬀects. The figure below represents a snapshot of the model:</p>
+
+<p style="text-align:center;"> <img src="http://healthyagents.github.io//images/2overview.png" width="600" alt="model overview" /></p>
+
+<h3>Agents</h3>
+
+<p><em>Agent characteristics</em>: age, race, school attendance, educational attainment, and earning potential, and behaviors of friends;</p>
+
+<p><em>Health behaviors</em>: diet, physical activity and smoking;</p>
+
+<p><em>Outcome variables of interest</em>: Body Mass Index (BMI), cardiovascular health and mortality rate</p>
+
+<h3>Housing Units</h3>
+
+<p>Each neighborhood has 25 housing units, organized in a 5 X 5 grid. Housing units can be either occupied(80% at the initial period) or unoccupied (the other 20 %).</p>
+
+<h3>Households 1280 households ﬁll 80% of the 1600 housing units. Each household consists of up to 4 agents.</h3>
+
+<h1>Model results</h1>
+
+<p>The main model results are the following:
+1. the quality of schools and social network influence had independent and interactive effects on diet behavior.
+2. the Black/White disparity in diet behavior was considerably reduced under some conditions, but never completely eliminated.
+3. the degree to which the disparity in diet behavior was reduced was a function of the type of social norm that was in place; the reduction was smallest when the type of social norm was healthy.</p>
+
+<p>Figure 2 illustrates the full time series of Healthy Diet for Experiment:</p>
+
+<p>&ndash;> <img src="http://healthyagents.github.io//images/2obesity2.png" width="600" alt="results healthy diet" /> &lt;&ndash;
+&ndash;> <img src="http://healthyagents.github.io//images/2results1.png" width="600" alt="results healthy diet" /> &lt;&ndash;
+&ndash;> <img src="http://healthyagents.github.io//images/2results2.png" width="600" alt="results healthy diet" /> &lt;&ndash;
+&ndash;> <img src="http://healthyagents.github.io//images/2results3.png" width="600" alt="results healthy diet" /> &lt;&ndash;#Conclusions
+Improving school quality can reduce, but not eliminate racial disparities in obesity related behavior, and the degree to which this is true depends partly on social network effects.#References</p>
+
+<p>Mark G. Orr, Sandro Galea, Matt Riddle, George Kaplan, Reducing Racial Disparities in Obesity: Simulating the Effects of Improved Education and Social Network Influence on Diet Behavior, Annals of Epidemiology, Available online 29 May 2014, ISSN 1047-2797 available online <a href="http://dx.doi.org/10.1016/j.annepidem.2014.05.012">here</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[EpiSimS: Epidemic Agent Based Model]]></title>
