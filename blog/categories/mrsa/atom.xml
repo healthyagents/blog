@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: MRSA | HealthyAgents]]></title>
+  <link href="http://healthyagents.github.io//blog/categories/mrsa/atom.xml" rel="self"/>
+  <link href="http://healthyagents.github.io//"/>
+  <updated>2014-07-13T00:04:39-04:00</updated>
+  <id>http://healthyagents.github.io//</id>
+  <author>
+    <name><![CDATA[Cristina Metgher]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Modeling the Spread of Staphylococcus Aureus Outbreaks Throughout Hospitals]]></title>
+    <link href="http://healthyagents.github.io//blog/2014/07/05/modeling-the-spread-of-staphylococcus-aureus-outbreaks-throughout-hospitals/"/>
+    <updated>2014-07-05T23:43:32-04:00</updated>
+    <id>http://healthyagents.github.io//blog/2014/07/05/modeling-the-spread-of-staphylococcus-aureus-outbreaks-throughout-hospitals</id>
+    <content type="html"><![CDATA[<h1>Phenomenon of interest</h1>
+
+<p>Given that hospitals in a region often share patients, this model attempts to model how an outbreak of MRSA in one hospital could affect other hospitals in the region.</p>
+
+<p>An ABM approach would be suitable for this problem given that:</p>
+
+<ul>
+<li>studies of MRSA have focused mostly on individual or, at most, small groups of hospitals</li>
+<li>most MRSA-colonized individuals are asymptomatic and colonization can persist for substantial durations</li>
+<li>endemic or epidemic changes in MRSA levels in one hospital could potentially affect MRSA levels in other hospitals</li>
+<li>regional evaluations are lacking</li>
+</ul>
+
+
+<h1>Model overview</h1>
+
+<h2>Data</h2>
+
+<ul>
+<li>hospital-specific data from several sources
+
+<ul>
+<li>data on annual adult admissions and hospital length of stay (LOS) distributions came from 2006 patient-level hospitalization data from all OC hospitals</li>
+<li>prior published work on how OC hospitals share patients</li>
+<li>previously collected information about the number, size, volume, and average patient length of staywithin hospital intensive care units (ICUs)</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Structure</h2>
+
+<ul>
+<li><strong>Region modeled</strong>: Orange County (OC), California
+29 acute care adult inpatient facilities are assigned agents(representing patient) who had a an either positive or negative MRSA infection status and who were moving among the general community and hospitals each simulated day.</li>
+</ul>
+
+
+<p>The general structure of the model is presented visually in Figure 1 below:</p>
+
+<p style="text-align:center;"> <img src="/images/3hospoverview.jpg" width="600" alt="Figure 1: Schematic flow of patients within the network and transmission" /></p>
+
+<p>Each hospital consisted of:</p>
+
+<ul>
+<li>general wards (20 beds)</li>
+<li>long-term acute care (LTAC) wards (10 beds)</li>
+<li>ICUs (12 beds)</li>
+</ul>
+
+
+<p>Upon admission, a patient stayed in that ward for a certain LOS. They had a probability of entering either an ICU or a general ward, drawn the from table <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3388111/table/T1/">here</a>.</p>
+
+<p>After the assigned LOS lapsed, a patient in a general ward was either discharged back into the community or transferred to another hospital. After each assigned ICU LOS lapsed, ICU patients transferred to a general ward for the remainder of their assigned hospital stay. Discharged patients had a probability of being readmitted. Patients who tested positive for MRSA had a relative 30% increase in the probability of readmission to a hospital, which is consistent with previous findings.</p>
+
+<p>Whether a readmitted patient went to the same or a different hospital was based on detailed interfacility patient-sharing data matrices.</p>
+
+<h1>Model results</h1>
+
+<p>The results of the model showed varying effects of outbreaks in one hospital on other hospitals in the Orange County, CA. These varying effects appeared to depend mainly on outbreak size and location.</p>
+
+<p>Figure 2 below shows the effects of outbreak on other hospitals over time:</p>
+
+<p style="text-align:center;"> <img src="/images/3res.jpeg" width="600" alt="results" /></p>
+
+<p>Increasing MRSA prevalence at a single hospital (from 5% to 15%) resulted in a 2.9% average increase in relative prevalence at all other hospitals (ranging from no effect to 46.4%).</p>
+
+<h1>Conclusions</h1>
+
+<p>This is one of the few papers that targets this sort of problems using agent-based modeling. From this model, we learned that for preventing and better managing MRSA outbreaks we should not limit only to the hospital in which the outbreak occured. We should also take into account that the hospitals are interconnected, and the infection can be transmitted from one hospital to another in non obvious ways as well.</p>
+
+<h1>References</h1>
+
+<p>Modeling the Spread of Methicillin-Resistant Staphylococcus aureus (MRSA) Outbreaks throughout the Hospitals in Orange County, California
+Lee et al, Infect Control Hosp Epidemiol. 2011 June ; 32(6): 562–572 available online <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3388111/">here</a></p>
+]]></content>
+  </entry>
+  
+</feed>
